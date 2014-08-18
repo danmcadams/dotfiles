@@ -43,7 +43,7 @@ alias nano=vi           # nice try!
 alias svi='sudo vi'
 alias edit=vi
 
-# quick shit
+# the quickness 
 alias c="clear"
 alias r="reset"
 alias h='history'
@@ -51,6 +51,8 @@ alias j='jobs -l'
 alias m=mount
 alias df='df -H'
 alias du='du -ch'
+alias ja='java'
+alias jc='javac'
 
 #justadminthings
 alias mount='mount | column -t'
