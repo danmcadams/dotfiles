@@ -35,7 +35,9 @@ alias lgrp='ls -lh | grep'
 alias mv='mv -i'
 alias cp='cp -i'
 alias ln='ln -i'
-
+alias sumv='sudo mv -i'
+alias sucp='sudo cp -i'
+alias suln='sudo ln -i'
 
 # run vim as default
 alias vi=vim
