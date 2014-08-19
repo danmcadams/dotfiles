@@ -66,6 +66,7 @@ alias cpuinfo='lscpu'
 alias top='htop'
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown now'
+alias clcache='sync; echo 3 | sudo tee /proc/sys/vm/drop_caches'
 
 # color grep commands
 alias grep='grep --color=auto'
