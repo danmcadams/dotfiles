@@ -9,11 +9,11 @@ alias .....='cd ../../../..'
 
 # ls commands
 alias ls='ls --color=auto'
-alias lsa='ls -lha'
-alias ll='ls -lh'
-alias lf='ls -lh |grep -v "^d"'
-alias ldir='ls -lh | grep "^d"'
-alias lgrp='ls -lh | grep'
+alias lsa='ls -lha | more'
+alias ll='ls -lh | more'
+alias lf='ls -lh | more | grep -v "^d"'
+alias ldir='ls -lh | more | grep "^d"'
+alias lgrp='ls -lh | more | grep'
 
 ## Safety pig has arrived!      _
 #  _._ _..._ .-',     _.._(`))
