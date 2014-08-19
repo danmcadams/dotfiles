@@ -43,6 +43,7 @@ alias suln='sudo ln -i'
 alias vi=vim
 alias nano=vi           # nice try! 
 alias svi='sudo vi'
+alias svim='sudo vi'
 alias edit=vi
 
 # the quickness 
