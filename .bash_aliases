@@ -79,5 +79,9 @@ alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias install='sudo apt-get install'
 alias instally='sudo apt-get install -y'
 
-# for funsies
+# randoms: won't work on all systems 
 alias interwebz='google-chrome'
+
+if [ $HOSTNAME = "linuxmojo" ]; then
+    alias ircterm='gnome-terminal --window-with-profile=irssi'
+fi
