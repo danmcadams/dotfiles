@@ -7,5 +7,5 @@ set shiftwidth=4
 set softtabstop=4
 set cindent " auto-tab
 
-set statusline=%F%=[%l:%c]
+set statusline=%t\ [%{strlen(&fenc)?&fenc:'none'}:%{&ff}]%h%m%r%y%=[%c:%l/%L]\ %P\ 
 set laststatus=2
