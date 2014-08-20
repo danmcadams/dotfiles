@@ -24,5 +24,8 @@ map <F5> :tabe <CR>
 map <F6> :tabp <CR>
 map <F7> :tabn <CR>
 
+" Other key maps
+map <C-e> :Vexplore <CR>
+
 set statusline=%t\ [%{strlen(&fenc)?&fenc:'none'}:%{&ff}]%h%m%r%y%=[%c:%l/%L]\ %P\ 
 set laststatus=2
