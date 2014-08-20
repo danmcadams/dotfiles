@@ -15,22 +15,6 @@ alias lf='ls -lh | more | grep -v "^d"'
 alias ldir='ls -lh | more | grep "^d"'
 alias lgrp='ls -lh | more | grep'
 
-## Safety pig has arrived!      _
-#  _._ _..._ .-',     _.._(`))
-# '-. `     '  /-._.-'    ',/
-#    )         \            '.
-#   / _    _    |             \
-#  |  a    a    /              |
-#  \   .-.                     ;  
-#   '-('' ).-'       ,'       ;
-#      '-;           |      .'
-#         \           \    /
-#         | 7  .__  _.-\   \
-#         | |  |  ``/  /`  /
-#        /,_|  |   /,_/   /
-#           /,_/      '`-'
-##
-
 # move/copy/link protection
 alias mv='mv -i'
 alias cp='cp -i'
@@ -40,8 +24,7 @@ alias sucp='sudo cp -i'
 alias suln='sudo ln -i'
 
 # run vim as default
-alias vi=vim
-alias nano=vi           # nice try! 
+alias vi=vim 
 alias svi='sudo vi'
 alias svim='sudo vi'
 alias edit=vi
@@ -80,8 +63,6 @@ alias install='sudo apt-get install'
 alias instally='sudo apt-get install -y'
 
 # randoms: won't work on all systems 
-alias interwebz='google-chrome'
-
 if [ $HOSTNAME = "linuxmojo" ]; then
     alias ircterm='gnome-terminal --window-with-profile=irssi'
 fi
