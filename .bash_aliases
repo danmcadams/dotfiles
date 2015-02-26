@@ -8,7 +8,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 # ls commands
-alias ls='ls --color=auto'
+alias ls='ls'
 alias lsa='ls -lha | more'
 alias ll='ls -lh | more'
 alias lf='ls -lh | more | grep -v "^d"'
