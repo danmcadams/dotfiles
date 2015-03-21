@@ -25,8 +25,8 @@ alias suln='sudo ln -i'
 
 # run vim as default
 alias vi=vim 
-alias svi='sudo vi'
-alias svim='sudo vi'
+alias svi='sudo -E vim'
+alias svim='sudo -E vim'
 alias edit=vi
 
 # the quickness 
