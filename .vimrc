@@ -15,6 +15,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set cindent
+set nu
 
 " Editor Tab keymaps
 map <F5> :tabe <CR>
