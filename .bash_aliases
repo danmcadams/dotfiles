@@ -90,5 +90,3 @@ alias pugndb='bash ./phpunit-nodb.sh --group'
 alias gpp='git pull && git push'
 alias punit='bin/phpunit'
 alias punitg='pug'
-
-alias turtlebox='ssh -i "/Users/dan/turtlebox.pem" ubuntu@ec2-52-36-60-206.us-west-2.compute.amazonaws.com'
