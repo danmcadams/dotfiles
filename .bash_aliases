@@ -9,7 +9,8 @@ alias .....='cd ../../../..'
 
 # ls commands
 alias ls='ls'
-alias lsa='ls -lha | more'
+#alias lsa='ls -lha | more'
+alias lsa='ls -lah'
 alias ll='ls -lh | more'
 alias lf='ls -lh | more | grep -v "^d"'
 alias ldir='ls -lh | more | grep "^d"'
@@ -40,6 +41,16 @@ alias du='du -ch'
 alias ja='java'
 alias jc='javac'
 
+# the quickness - git
+alias gs="git status"
+alias gc="git commit"
+alias gb="git branch"
+alias gp="git pull && git push"
+alias gba="bit branch --all"
+alias gch="git checkout"
+alias gffs="git flow feature start"
+alias gfff="git flow feature finish"
+
 #justadminthings
 alias mount='mount | column -t'
 alias meminfo='free -m -l -t'
@@ -50,6 +61,7 @@ alias top='htop'
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown now'
 alias clcache='sync; echo 3 | sudo tee /proc/sys/vm/drop_caches'
+alias htop='sudo htop'
 
 # color grep commands
 alias grep='grep --color=auto'
@@ -62,7 +74,21 @@ alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias install='sudo apt-get install'
 alias instally='sudo apt-get install -y'
 
-# randoms: won't work on all systems 
-if [ $HOSTNAME = "linuxmojo" ]; then
-    alias ircterm='gnome-terminal --window-with-profile=irssi'
-fi
+# Work Shortcuts 
+
+alias htdocs='cd /Applications/MAMP/htdocs'
+alias cems-start='cd /Applications/MAMP/htdocs/cems2 && ass && acl'
+alias cems='cd /Applications/MAMP/htdocs/cems2'
+alias dispatch='cd /Applications/MAMP/htdocs/cemsMailDispatcher'
+alias antc='ant clear-cache'
+alias antl='ant load-fixtures'
+alias acl='ant clear-cache load-fixtures'
+alias ass='ant start-selenium'
+alias bht='bin/behat --tags'
+alias pug='bin/phpunit --group'
+alias pugndb='bash ./phpunit-nodb.sh --group'
+alias gpp='git pull && git push'
+alias punit='bin/phpunit'
+alias punitg='pug'
+
+alias turtlebox='ssh -i "/Users/dan/turtlebox.pem" ubuntu@ec2-52-36-60-206.us-west-2.compute.amazonaws.com'
