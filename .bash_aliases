@@ -76,9 +76,9 @@ alias instally='sudo apt-get install -y'
 
 # Work Shortcuts 
 
-alias htdocs='cd /Applications/MAMP/htdocs'
+alias htdocs='cd /var/www/htdocs'
 alias cems-start='cd /Applications/MAMP/htdocs/cems2 && ass && acl'
-alias cems='cd /Applications/MAMP/htdocs/cems2'
+alias cems='cd /var/www/htdocs/cems2'
 alias dispatch='cd /Applications/MAMP/htdocs/cemsMailDispatcher'
 alias antc='ant clear-cache'
 alias antl='ant load-fixtures'
